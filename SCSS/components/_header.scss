@@ -1,0 +1,30 @@
+.main-header{
+  background-color: $color1;
+  .l-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo-container{
+  width: 50%;
+}
+
+.logo{
+  width: 100%;
+}
+
+.icon-menu{
+  margin-left: auto;
+  margin-right: .5em;
+  font-size: 2em;
+  color: $white;
+}
+
+
+
+// temporal, por el momento no lo quiero ver hasta darle estilos pues sera un meno que aparecera cuando toque el menu amburquesa.
+.main-menu{
+  display: none;
+}
