@@ -1,0 +1,20 @@
+.contact.l-container
+  .contact-data-container
+    h2.subtitle Visistanos 
+    .contact-map
+      iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d413.5588800951913!2d-69.20800489185562!3d9.555789262424824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e7dc1711940f145%3A0x58b9a68c9ebc5376!2sServicio%20Para%20la%20Educacion%20%22Dr.%20Arturo%20Uslar%20Pietri%22!5e0!3m2!1ses-419!2sve!4v1662498822447!5m2!1ses-419!2sve" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade")
+    .contact-address
+      p.icon.icon-marker Av 34 / calles 27 y 28 - Acarigua
+    .contact-phone
+      p.icon.icon-phone 352 - 235 32 35
+
+  .contact-form-container
+    h2.subtitle o escribenos
+    form(action="procesar.php", method="post").contact-form 
+      label Tu nombre:
+        input(type="text", name="name")
+      label Tu email
+        input(type="email", name="email")
+      label Tu mensaje
+        textarea(name="message", cols="30", rows="10")
+      input(type="submit", value="Enviar").button.second

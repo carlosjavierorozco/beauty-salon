@@ -6,10 +6,15 @@ $color3: #FFAD01;
 $black: #111111;
 $white: #FFFFFF;
 
-
+$offcanvas : 12em;
 
 
 @import "components/header";
 @import "components/banner";
 @import "components/services";
 @import "components/base";
+@import "components/staff";
+@import "components/contact";
+@import "components/footer";
+@import "components/menu";
+@import "components/button";

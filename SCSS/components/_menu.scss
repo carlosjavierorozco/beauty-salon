@@ -1,0 +1,39 @@
+.main-nav{
+  width: $offcanvas;
+  height: 100vh;
+  background-color: $color3;
+  position: fixed;
+  top: 0;
+  right: -$offcanvas;
+  z-index: 30;
+  transition: all .3s;
+  &.show{
+    right: 0;
+}
+}
+
+
+body{
+	position: relative;
+	right: 0;
+  transition: all .3s;
+	&.show{
+		right: $offcanvas;
+	}
+}
+
+.main-menu{
+  padding-top: .3em;
+  list-style: none;
+  text-transform: uppercase;
+  padding-left: 0;
+}
+
+.main-menu__item{
+  padding: 0 1em 1em;
+  border-bottom: 1px solid rgba($color2,.5);
+  margin: 1em;
+}
+.main-menu__link{
+  color: $color1;
+}

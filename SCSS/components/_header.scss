@@ -9,6 +9,7 @@
 
 .logo-container{
   width: 50%;
+  margin-right: 0;
 }
 
 .logo{
@@ -17,14 +18,8 @@
 
 .icon-menu{
   margin-left: auto;
-  margin-right: .5em;
   font-size: 2em;
   color: $white;
-}
 
-
-
-// temporal, por el momento no lo quiero ver hasta darle estilos pues sera un meno que aparecera cuando toque el menu amburquesa.
-.main-menu{
-  display: none;
+  
 }

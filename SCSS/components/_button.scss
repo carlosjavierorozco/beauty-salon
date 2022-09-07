@@ -1,0 +1,23 @@
+.button {
+
+    padding: .5em;
+    cursor: pointer;
+    border-radius: .2em;
+    &.primary{
+        background-color: $color1;
+    }
+    &.second{
+        background-color: $color2;
+    }
+    &.third{
+        color: $color1;
+        background-color: $color3;
+    }
+}
+
+input[type=submit]{
+    color: $color3;
+    width: 30%;
+    font-size: 1em;
+    border: none;
+}
