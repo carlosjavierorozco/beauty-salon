@@ -129,15 +129,6 @@ a {
   margin: auto;
 }
 
-.staff-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .staff-title {
   text-align: center;
   text-transform: uppercase;
