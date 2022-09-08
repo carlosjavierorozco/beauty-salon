@@ -10,6 +10,10 @@
 .logo-container{
   width: 50%;
   margin-right: 0;
+  @include desde($x-large){
+   width: 30%;
+}
+ 
   @include desde($medium){
     width: 40%;
 }
@@ -26,6 +30,10 @@
   margin-left: auto;
   font-size: 2em;
   color: $white;
+  opacity: .7;
+  &:hover{
+    opacity: 1;
+  }
   @include desde($medium){
     font-size: 2.5em;
 }

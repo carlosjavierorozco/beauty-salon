@@ -28,6 +28,9 @@
     width: inherit;
     @include desde($medium){
         width: 40%;}
+  @include desde($x-large){
+            width: 20%;
+         }
 }
 
 .staff-img{

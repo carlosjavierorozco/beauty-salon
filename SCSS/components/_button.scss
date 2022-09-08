@@ -5,13 +5,22 @@
     border-radius: .2em;
     &.primary{
         background-color: $color1;
+        &:hover{
+            background-color: darken($color: $color1, $amount: 7);
+        }
     }
     &.second{
         background-color: $color2;
+        &:hover{
+            background-color: darken($color: $color2, $amount: 7);
+        }
     }
     &.third{
         color: $color1;
         background-color: $color3;
+        &:hover{
+            background-color: darken($color: $color3, $amount: 7);
+        }
     }
 }
 

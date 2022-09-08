@@ -17,6 +17,11 @@
   width: 50%;
   margin-right: 0;
 }
+@media screen and (min-width: 1280px) {
+  .logo-container {
+    width: 30%;
+  }
+}
 @media screen and (min-width: 768px) {
   .logo-container {
     width: 40%;
@@ -36,6 +41,10 @@
   margin-left: auto;
   font-size: 2em;
   color: #FFFFFF;
+  opacity: 0.7;
+}
+.icon-menu:hover {
+  opacity: 1;
 }
 @media screen and (min-width: 768px) {
   .icon-menu {
@@ -155,9 +164,10 @@
     font-size: 1.8em;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 912px) {
   .service {
-    height: 40vh;
+    height: 45vh;
+    font-size: 1.8em;
   }
 }
 .service:nth-child(2) {
@@ -240,6 +250,11 @@ a {
 @media screen and (min-width: 768px) {
   .staff-member {
     width: 40%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .staff-member {
+    width: 20%;
   }
 }
 
@@ -344,6 +359,12 @@ textarea {
           align-items: center;
   font-size: 2em;
 }
+.main-footer a {
+  opacity: 0.7;
+}
+.main-footer a:hover {
+  opacity: 1;
+}
 
 .main-nav {
   width: 12em;
@@ -395,12 +416,21 @@ body.show {
 .button.primary {
   background-color: #514077;
 }
+.button.primary:hover {
+  background-color: #413460;
+}
 .button.second {
   background-color: #924992;
+}
+.button.second:hover {
+  background-color: #7a3d7a;
 }
 .button.third {
   color: #514077;
   background-color: #FFAD01;
+}
+.button.third:hover {
+  background-color: #dc9500;
 }
 
 input[type=submit] {

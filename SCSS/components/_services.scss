@@ -18,12 +18,12 @@
         height: 30vh;
         font-size: 1.8em;
     }
-    //- minor breakpoint 1024
-
-    @media screen and (min-width: 1024px) {
-        height: 40vh;
-    }
     
+    @include desde($large){
+        height: 45vh;
+        font-size: 1.8em;
+    }
+
     &:nth-child(2){
         background-color: $color2;
         color: $color3;
