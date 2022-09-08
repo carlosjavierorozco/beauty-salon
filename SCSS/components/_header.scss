@@ -10,6 +10,12 @@
 .logo-container{
   width: 50%;
   margin-right: 0;
+  @include desde($medium){
+    width: 40%;
+}
+@include desde($medium){
+  width: 30%;
+}
 }
 
 .logo{
@@ -20,6 +26,8 @@
   margin-left: auto;
   font-size: 2em;
   color: $white;
-
+  @include desde($medium){
+    font-size: 2.5em;
+}
   
 }

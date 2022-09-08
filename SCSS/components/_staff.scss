@@ -1,10 +1,20 @@
 .staff-container{
-
+    @include desde($medium){
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 .staff-title{
     text-align: center;
     text-transform: uppercase;
+    width: 100%;
+    @include desde($medium){
+        font-size: 2em;
+        margin: .5em 0 0;
+    }
 }
 
 .staff-member{
@@ -16,6 +26,8 @@
     margin: 1em 0;
     padding: 1em 1.5em;
     width: inherit;
+    @include desde($medium){
+        width: 40%;}
 }
 
 .staff-img{
@@ -27,9 +39,15 @@
 .staff-name{
     font-size: 1.2em;
     color: $color2;
+    @include desde($medium){
+        margin-top: .5em;
+        margin-bottom: .5em;
+        font-size: 2em;}
 }
 
 .staff-button{
     font-size: .8em;
+    @include desde($medium){
+        font-size: 1.2em;}
+    
 }
-

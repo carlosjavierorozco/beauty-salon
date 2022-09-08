@@ -1,6 +1,22 @@
+.contact{
+   @include desde($medium){
+    display: flex;
+    justify-content: space-between;
+}
 
+    &-data-container{
+        @include desde($medium){
+            width: 48%;}
+    }
+
+    &-form-container{
+        @include desde($medium){
+            width: 48%;}
+    }
+}
 .contact-container{
     display: flex;
+
 }
 
 .subtitle{

@@ -8,6 +8,21 @@ $white: #FFFFFF;
 
 $offcanvas : 12em;
 
+//Mixins para media query
+
+@mixin desde($size){
+    @media screen and (min-width: $size) {
+        @content;}
+}
+
+// breakpoints
+$small: 360px;
+$medium: 768px;
+$large: 912px;
+$x-large: 1280px;
+
+// minor breakpoint
+$minor-1024: 1024px;
 
 @import "components/header";
 @import "components/banner";
