@@ -33,6 +33,7 @@
   opacity: .7;
   &:hover{
     opacity: 1;
+    cursor: pointer;
   }
   @include desde($medium){
     font-size: 2.5em;

@@ -45,6 +45,7 @@
 }
 .icon-menu:hover {
   opacity: 1;
+  cursor: pointer;
 }
 @media screen and (min-width: 768px) {
   .icon-menu {
